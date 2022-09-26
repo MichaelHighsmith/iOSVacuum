@@ -12,8 +12,7 @@ let package = Package(
             targets: ["iOSVacuum"]),
     ],
     dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
+        .package(url: "https://github.com/Realm/SwiftLint", from: "0.49.1")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
